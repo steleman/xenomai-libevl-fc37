@@ -1,5 +1,5 @@
 Xenomai LibEVL on Fedora 37
-=======================
+===========================
 
 What's this?
 ------------
@@ -22,4 +22,8 @@ How to build?
 -------------
 
 See [https://evlproject.org/core/build-steps/](https://evlproject.org/core/build-steps/)
+
+1. Copy the shell script `meson-build-libevl.sh` to the directory above this one.
+2. Run the script: `./meson-build-libevl.sh`.
+3. That's it. You have built `libevl`.
 
