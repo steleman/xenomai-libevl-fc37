@@ -1,0 +1,17 @@
+[binaries]
+c = 'arm-none-linux-gnueabihf-gcc'
+cpp = 'arm-none-linux-gnueabihf-g++'
+ar = 'arm-none-linux-gnueabihf-gcc-ar'
+strip = 'arm-none-linux-gnueabihf-strip'
+pkgconfig = 'arm-none-linux-gnueabihf-pkg-config'
+pcap-config = ''
+
+[host_machine]
+system = 'linux'
+cpu_family = 'arm'
+cpu = 'armv7-a'
+endian = 'little'
+
+[properties]
+platform = 'generic_aarch32'
+needs_exe_wrapper = false

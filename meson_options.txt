@@ -1,0 +1,1 @@
+option('uapi', type : 'string', value : '/usr/include', description : 'path to kernel UAPI headers')
